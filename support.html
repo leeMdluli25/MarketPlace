@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic Styles */
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: darkslategrey;
+            padding: 10px 0;
+            padding-bottom: 4px;
+            text-decoration: wavy;
+        }
+        .top {
+            padding: 0px;
+            background-color: white;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: inline-block;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        .btn {
+            /* display: inline-block; */
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            position: relative;
+            left: 90%;
+
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            bottom: 0;
+        }
+        section {
+            margin: 20px 0;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        section h2 {
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        section h3 {
+            color: #666;
+        }
+    </style>
+
+<body>
+    <header>
+        <div class="top"><h2>M A R K E T  |  P L A C E</h2></div>
+        <a href="#" class="btn">Start Shopping</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="support.html">Support</a></li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>How do I create an account?</h3>
+                <p>To create an account, go to the registration page and fill out the required information.</p>
+            </div>
+            <div class="faq-item ">
+                <h3>How can I track my order?</h3>
+                <p>You can track your order by logging into your account and visiting the order tracking section.</p>
+            </div>
+            <br><br>
+            <!-- More FAQ items as needed -->
+            <select name="FAQs" id="faq">
+                <option value="Create an account">To create an account, go to the registration page and fill out the required information</option>
+            </select>
+              <br><br>
+
+
+
+        </section>
+    
+        <section id="policies">
+            <h2>Policies</h2>
+            <h3>Refund Policy</h3>
+            <p>We offer a 30-day money-back guarantee on all purchases made through our marketplace.</p>
+            <h3>Privacy Policy</h3>
+            <p>We are committed to protecting your privacy. Read our full privacy policy <a href="#">here</a>.</p>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Market place | All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</head>
+</html>

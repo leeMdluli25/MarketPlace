@@ -9,39 +9,61 @@
     <style>
         /* Reset and basic styles */
         * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
         }
 
+        /* Basic Styles */
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f0f0f0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+            background-image: url('img4.jpg');
+            background-size: cover;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
 
         header {
             background-color: darkslategrey;
-            color: #fff;
             padding: 10px 0;
+            padding-bottom: 4px;
+            text-decoration: wavy;
         }
-
-        header nav ul {
-            list-style-type: none;
+        .top {
+            padding: 0px;
+            background-color: white;
             text-align: center;
         }
 
-        header nav ul li {
+        nav ul {
+            list-style: none;
             display: inline-block;
-            margin: 0 10px;
         }
 
-        header nav ul li a {
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
             color: #fff;
             text-decoration: none;
-            padding: 5px 10px;
+            padding: 10px 20px;
         }
 
+        .btn {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        position: relative;
+        left: 90%;
+
+        }
         .hero {
             background-image: url('background-image.jpg');
             background-size: cover;
@@ -80,6 +102,18 @@
             text-align: center;
         }
 
+        .btn {
+            /* display: inline-block; */
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            position: relative;
+            left: 90%;
+
+}
+
         .button {
             display: inline-block;
             background-color: #333;
@@ -95,13 +129,11 @@
         }
 
         footer {
-            text-align: center;
-            padding: 20px;
             background-color: #333;
             color: #fff;
-            position: fixed;
+            text-align: center;
+            padding: 20px 0;
             bottom: 0;
-            width: 100%;
         }
 
     </style>
@@ -109,13 +141,15 @@
 </head>
 <body>
     <header>
+        <div class="top"><h2>M A R K E T  |  P L A C E</h2></div>
+        <a href="#" class="btn">Start Shopping</a>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
+
         </nav>
     </header>
     
@@ -151,7 +185,9 @@
     </section>
     
     <footer>
-        <p>&copy; 2024 Market Couch. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Market place | All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
