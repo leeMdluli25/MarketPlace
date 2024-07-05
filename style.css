@@ -127,7 +127,6 @@ footer {
     justify-content: space-around;
     align-items: flex-start;
     padding: 50px;
-    background-image: url('cnt.jpg');
 }
 
 .contact-info {
@@ -136,6 +135,9 @@ footer {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('tel.jpg');
+    background-size: cover;
+
 }
 
 .contact-info h1 {
