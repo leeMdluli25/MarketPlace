@@ -11,9 +11,30 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1350px;
     margin: 0 auto;
     padding: 0 20px;
+    background-color: whitesmoke;
+    border-radius: 16px;
+    box-shadow: 7px 7px lightblue;
+}
+
+.container h1 {
+    margin: 0;
+    padding: 4px 4px;
+    position: absolute;
+    left: 935px;
+    top: 830px;
+    text-shadow: 2px 2px lightblue;
+}
+
+.servpic {
+    width: 450px; 
+    height: 295px;
+    position: relative;
+    left: 25px;
+    top: 20px;
+    border-radius: 16px;
 }
 
 header {
@@ -110,12 +131,22 @@ h2 {
     margin-bottom: 20px;
 }
 
-.service {
-    margin-bottom: 40px;
+.service_one {
+    margin-bottom: 10px;
+    position: absolute;
+    left: 650px;
+    top: 920px;
+}
+
+.service_two {
+    margin-bottom: 10px;
+    position: absolute;
+    left: 1150px;
+    top: 920px;
 }
 
 footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
